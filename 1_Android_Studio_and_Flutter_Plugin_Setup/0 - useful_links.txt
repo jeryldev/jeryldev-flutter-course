@@ -1,0 +1,13 @@
+Useful links about setting up our Android Studio for Flutter Development
+
+ - https://flutter.dev/docs/get-started/editor
+
+Steps:
+1. Install the Android Studio (https://developer.android.com/studio)
+2. Install the Flutter and Dart Plugins
+    - Start Android Studio.
+    - Open plugin preferences (Preferences > Plugins on macOS, File > Settings > Plugins on Windows & Linux).
+    - Select Marketplace, select the Flutter plugin and click Install.
+    - Click Yes when prompted to install the Dart plugin.
+    - Click Restart when prompted.
+
