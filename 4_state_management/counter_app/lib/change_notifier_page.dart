@@ -1,18 +1,20 @@
+import 'package:counter_app/change_notifier_bloc.dart';
 import 'package:counter_app/counter_bloc.dart';
+import 'package:counter_app/custom_button.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class ProviderPage extends StatefulWidget {
+class ChangeNotifierPage extends StatefulWidget {
   @override
-  _ProviderPageState createState() => _ProviderPageState();
+  _ChangeNotifierPageState createState() => _ChangeNotifierPageState();
 }
 
-class _ProviderPageState extends State<ProviderPage> {
+class _ChangeNotifierPageState extends State<ChangeNotifierPage> {
   double number = 0;
 
   @override
   Widget build(BuildContext context) {
-    final _bloc = Provider.of<CounterBloc>(context);
+    final _bloc = Provider.of<ChangeNotifierBloc>(context);
     return Scaffold(
       appBar: AppBar(
         title: Text('Home Page'),
@@ -21,32 +23,31 @@ class _ProviderPageState extends State<ProviderPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            StreamBuilder(
-                stream: _bloc.counter,
-                initialData: 0,
-                builder: (context, snapshot) {
-                  return Text(
-                    snapshot.data.toString(),
-                    style: TextStyle(
-                      fontSize: 36,
-                    ),
-                  );
-                }),
+            Text(
+              _bloc.counter.toString(),
+              style: TextStyle(
+                fontSize: 36,
+              ),
+            ),
+            SizedBox(height: 36),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                FloatingActionButton(
-                  onPressed: () {
-                    _bloc.increment();
-                  },
-                  child: Icon(Icons.add),
+                customButton(
+                  func: () => _bloc.increment(),
+                  icon: Icons.add,
                 ),
-                FloatingActionButton(
-                  onPressed: () {
-                    _bloc.decrement();
-                  },
-                  child: Icon(Icons.remove),
-                ),
+                SizedBox(width: 16),
+                customButton(
+                  icon: Icons.remove,
+                  func: () => _bloc.decrement(),
+                )
+//                FloatingActionButton(
+//                  onPressed: () => _bloc.decrement(),
+//                  child: Icon(Icons.remove),
+//                  backgroundColor: Colors.green,
+//                  shape: RoundedRectangleBorder(),
+//                ),
               ],
             ),
           ],
