@@ -1,4 +1,4 @@
-import 'package:authentication_app/src/custom_raised_button.dart';
+import 'package:authentication_app/src/widgets/custom_raised_button.dart';
 import 'package:flutter/material.dart';
 
 class FormSubmitButton extends CustomRaisedButton {

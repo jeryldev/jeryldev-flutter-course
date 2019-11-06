@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:authentication_app/src/platform_widget.dart';
+import 'package:authentication_app/src/widgets/platform_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 

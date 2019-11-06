@@ -1,4 +1,4 @@
-import 'package:authentication_app/src/platform_alert_dialog.dart';
+import 'package:authentication_app/src/widgets/platform_alert_dialog.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
