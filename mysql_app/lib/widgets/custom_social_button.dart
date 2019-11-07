@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:researcher_app/src/widgets/custom_raised_button.dart';
+import 'package:mysql_app/widgets/custom_raised_button.dart';
 
 class CustomSocialButton extends CustomRaisedButton {
   CustomSocialButton({

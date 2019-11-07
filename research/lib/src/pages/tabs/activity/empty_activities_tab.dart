@@ -1,5 +1,5 @@
-import 'package:complete_login_setup/src/pages/tabs/activity/create_or_update_activity_page.dart';
 import 'package:flutter/material.dart';
+import 'package:research/src/pages/tabs/activity/create_or_update_activity_page.dart';
 
 class EmptyActivitiesTab extends StatelessWidget {
   const EmptyActivitiesTab({

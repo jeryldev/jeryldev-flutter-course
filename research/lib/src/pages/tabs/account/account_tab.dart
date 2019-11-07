@@ -1,11 +1,11 @@
-import 'package:complete_login_setup/src/authentication/authentication_service.dart';
-import 'package:complete_login_setup/src/connectivity/connectivity_service.dart';
-import 'package:complete_login_setup/src/pages/login/landing_page.dart';
-import 'package:complete_login_setup/src/widgets/common/custom_raised_button.dart';
-import 'package:complete_login_setup/src/widgets/platform_alert_dialog.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:research/src/authentication/authentication_service.dart';
+import 'package:research/src/connectivity/connectivity_service.dart';
+import 'package:research/src/pages/login/landing_page.dart';
+import 'package:research/src/widgets/common/custom_raised_button.dart';
+import 'package:research/src/widgets/platform_alert_dialog.dart';
 
 class AccountTab extends StatelessWidget {
   @override

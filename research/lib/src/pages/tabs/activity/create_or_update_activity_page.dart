@@ -1,12 +1,5 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:complete_login_setup/src/connectivity/connectivity_service.dart';
-import 'package:complete_login_setup/src/firebase_database/models/activity_model.dart';
-import 'package:complete_login_setup/src/firebase_database/services/database_service.dart';
-import 'package:complete_login_setup/src/widgets/activity/activity_image.dart';
-import 'package:complete_login_setup/src/widgets/common/custom_button.dart';
-import 'package:complete_login_setup/src/widgets/platform_alert_dialog.dart';
-import 'package:complete_login_setup/src/widgets/platform_exception_alert_dialog.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +9,13 @@ import 'package:flutter/services.dart';
 import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
 import 'package:provider/provider.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
+import 'package:research/src/connectivity/connectivity_service.dart';
+import 'package:research/src/firebase_database/models/activity_model.dart';
+import 'package:research/src/firebase_database/services/database_service.dart';
+import 'package:research/src/widgets/activity/activity_image.dart';
+import 'package:research/src/widgets/common/custom_button.dart';
+import 'package:research/src/widgets/platform_alert_dialog.dart';
+import 'package:research/src/widgets/platform_exception_alert_dialog.dart';
 
 class CreateOrUpdateActivityPage extends StatefulWidget {
   const CreateOrUpdateActivityPage(

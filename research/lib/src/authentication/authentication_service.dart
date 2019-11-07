@@ -1,8 +1,8 @@
 import 'dart:async';
-import 'package:complete_login_setup/src/authentication/models/user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:research/src/authentication/models/user_model.dart';
 
 abstract class AuthBase {
   Stream<UserModel> get onAuthStateChanged;

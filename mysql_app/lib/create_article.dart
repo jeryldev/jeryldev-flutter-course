@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:researcher_app/src/widgets/form_submit_button.dart';
+import 'package:mysql_app/widgets/form_submit_button.dart';
 
 class CreateArticle extends StatefulWidget {
   @override
@@ -14,11 +14,6 @@ class _CreateArticleState extends State<CreateArticle> {
   TextEditingController controllerAuthor = TextEditingController();
   TextEditingController controllerDownloadURL = TextEditingController();
 
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
 
   void addData() {
     String url = 'http://10.0.2.2/jeryllocalhost/add_data.php';
@@ -26,7 +21,7 @@ class _CreateArticleState extends State<CreateArticle> {
     http.post(url, body: {
       "title": controllerTitle.text,
       "description": controllerDescription.text,
-      "downloadURL": 'test',
+      "downloadURL": controllerDownloadURL,
       "author": controllerAuthor.text,
     });
   }

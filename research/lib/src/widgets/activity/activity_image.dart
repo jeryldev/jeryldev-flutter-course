@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:complete_login_setup/src/firebase_database/models/activity_model.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:research/src/firebase_database/models/activity_model.dart';
 
 class ActivityImage extends StatelessWidget {
   const ActivityImage({Key key, this.file, this.imageURL, this.activity})

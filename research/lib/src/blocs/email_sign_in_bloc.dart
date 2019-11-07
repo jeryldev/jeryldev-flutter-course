@@ -1,10 +1,11 @@
 import 'dart:async';
-import 'package:complete_login_setup/src/authentication/models/email_sign_in_model.dart';
-import 'package:complete_login_setup/src/blocs/email_sign_in_validators.dart';
-import 'package:complete_login_setup/src/blocs/sign_in_loading_bloc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
+import 'package:research/src/authentication/models/email_sign_in_model.dart';
+import 'package:research/src/blocs/sign_in_loading_bloc.dart';
 import 'package:rxdart/rxdart.dart';
+
+import 'email_sign_in_validators.dart';
 
 class EmailSignInBloc with EmailSignInValidators {
   EmailSignInBloc({@required this.signInBloc});

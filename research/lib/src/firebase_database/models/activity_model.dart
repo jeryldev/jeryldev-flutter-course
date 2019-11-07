@@ -23,6 +23,7 @@ class ActivityModel {
   final String imageURL;
   final String imagePath;
 
+
   factory ActivityModel.fromMap(Map<String, dynamic> data, String documentId) {
     int activityDateMilliseconds;
     data['activityDate'] == null

@@ -1,11 +1,11 @@
-import 'package:complete_login_setup/src/firebase_database/models/activity_model.dart';
-import 'package:complete_login_setup/src/firebase_database/services/database_service.dart';
-import 'package:complete_login_setup/src/pages/tabs/activity/create_or_update_activity_page.dart';
-import 'package:complete_login_setup/src/widgets/activity/activities_builder.dart';
-import 'package:complete_login_setup/src/widgets/activity/activity_item.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:research/src/firebase_database/models/activity_model.dart';
+import 'package:research/src/firebase_database/services/database_service.dart';
+import 'package:research/src/pages/tabs/activity/create_or_update_activity_page.dart';
+import 'package:research/src/widgets/activity/activities_builder.dart';
+import 'package:research/src/widgets/activity/activity_item.dart';
 
 class ActivitiesTab extends StatelessWidget {
   @override

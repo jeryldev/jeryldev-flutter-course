@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:researcher_app/src/pages/home_page.dart';
-import 'package:researcher_app/src/widgets/form_submit_button.dart';
-import 'update_article.dart';
+import 'package:mysql_app/article_list_view.dart';
+import 'package:mysql_app/update_article.dart';
+import 'package:mysql_app/widgets/form_submit_button.dart';
 
 class Detail extends StatefulWidget {
   List list;
@@ -33,7 +33,7 @@ class _DetailState extends State<Detail> {
             deleteData();
             Navigator.of(context).push(
               MaterialPageRoute(
-                builder: (BuildContext context) => HomePage(),
+                builder: (BuildContext context) => ArticleListView(),
               ),
             );
           },

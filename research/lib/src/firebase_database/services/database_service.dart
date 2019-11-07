@@ -1,7 +1,7 @@
-import 'package:complete_login_setup/src/firebase_database/models/activity_model.dart';
-import 'package:complete_login_setup/src/firebase_database/services/api_path.dart';
-import 'package:complete_login_setup/src/firebase_database/services/firestore_service.dart';
 import 'package:flutter/foundation.dart';
+import 'package:research/src/firebase_database/models/activity_model.dart';
+import 'package:research/src/firebase_database/services/api_path.dart';
+import 'package:research/src/firebase_database/services/firestore_service.dart';
 
 abstract class DatabaseService {
   Future<void> setActivity(ActivityModel activity);

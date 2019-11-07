@@ -1,7 +1,6 @@
-import 'dart:async';
-import 'package:complete_login_setup/src/authentication/authentication_service.dart';
-import 'package:complete_login_setup/src/authentication/models/user_model.dart';
-import 'package:flutter/foundation.dart';
+import 'dart:async';import 'package:flutter/foundation.dart';
+import 'package:research/src/authentication/authentication_service.dart';
+import 'package:research/src/authentication/models/user_model.dart';
 
 class SignInLoadingBloc {
   SignInLoadingBloc({@required this.auth});

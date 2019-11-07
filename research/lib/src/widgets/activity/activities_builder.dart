@@ -1,5 +1,5 @@
-import 'package:complete_login_setup/src/pages/tabs/activity/empty_activities_tab.dart';
 import 'package:flutter/material.dart';
+import 'package:research/src/pages/tabs/activity/empty_activities_tab.dart';
 
 typedef ItemWidgetBuilder<T> = Widget Function(BuildContext context, T item);
 

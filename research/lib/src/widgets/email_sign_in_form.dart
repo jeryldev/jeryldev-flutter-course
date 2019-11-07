@@ -1,14 +1,15 @@
-import 'package:complete_login_setup/src/authentication/models/email_sign_in_model.dart';
-import 'package:complete_login_setup/src/blocs/email_sign_in_bloc.dart';
-import 'package:complete_login_setup/src/blocs/sign_in_loading_bloc.dart';
-import 'package:complete_login_setup/src/pages/login/home_page.dart';
-import 'package:complete_login_setup/src/widgets/common/custom_flat_button.dart';
-import 'package:complete_login_setup/src/widgets/common/form_submit_button.dart';
-import 'package:complete_login_setup/src/widgets/platform_exception_alert_dialog.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+import 'package:research/src/authentication/models/email_sign_in_model.dart';
+import 'package:research/src/blocs/email_sign_in_bloc.dart';
+import 'package:research/src/blocs/sign_in_loading_bloc.dart';
+import 'package:research/src/pages/login/home_page.dart';
+import 'package:research/src/widgets/platform_exception_alert_dialog.dart';
+
+import 'common/custom_flat_button.dart';
+import 'common/form_submit_button.dart';
 
 class EmailSignInForm extends StatefulWidget {
   const EmailSignInForm({

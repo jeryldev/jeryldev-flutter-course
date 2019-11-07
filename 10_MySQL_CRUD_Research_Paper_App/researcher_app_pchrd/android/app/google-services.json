@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "794319186009",
+    "firebase_url": "https://flutter-test-app-854d1.firebaseio.com",
+    "project_id": "flutter-test-app-854d1",
+    "storage_bucket": "flutter-test-app-854d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794319186009:android:cb2992deb9a39d1a3de948",
+        "android_client_info": {
+          "package_name": "com.jeryldev.complete_login_setup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794319186009-od52h330t9e0lvgui2qi819i15s7tib8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jeryldev.complete_login_setup",
+            "certificate_hash": "6acb97334238450168c0be6679b68ea909fc045d"
+          }
+        },
+        {
+          "client_id": "794319186009-lvdp46u1f8gpsacehdu7g6n26eck04jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2sBl8hH76nPSPfMzi5iNXU4gcHpg3h-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794319186009-lvdp46u1f8gpsacehdu7g6n26eck04jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794319186009:android:211d67548c06ed563de948",
+        "android_client_info": {
+          "package_name": "com.jeryldev.researcher_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794319186009-nh56qdnq5k578f15k5lltv134voasb13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jeryldev.researcher_app",
+            "certificate_hash": "6acb97334238450168c0be6679b68ea909fc045d"
+          }
+        },
+        {
+          "client_id": "794319186009-lvdp46u1f8gpsacehdu7g6n26eck04jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2sBl8hH76nPSPfMzi5iNXU4gcHpg3h-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794319186009-lvdp46u1f8gpsacehdu7g6n26eck04jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

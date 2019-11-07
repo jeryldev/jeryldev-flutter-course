@@ -1,7 +1,6 @@
-import 'dart:io';
-import 'package:complete_login_setup/src/widgets/platform_widget.dart';
-import 'package:flutter/material.dart';
+import 'dart:io';import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:research/src/widgets/platform_widget.dart';
 
 class PlatformAlertDialog extends PlatformWidget {
   PlatformAlertDialog({

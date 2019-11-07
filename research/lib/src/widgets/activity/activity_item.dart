@@ -1,6 +1,6 @@
-import 'package:complete_login_setup/src/firebase_database/models/activity_model.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:research/src/firebase_database/models/activity_model.dart';
 
 class ActivityItem extends StatelessWidget {
   const ActivityItem({

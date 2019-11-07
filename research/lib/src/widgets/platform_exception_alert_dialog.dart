@@ -1,6 +1,6 @@
-import 'package:complete_login_setup/src/widgets/platform_alert_dialog.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
+import 'package:research/src/widgets/platform_alert_dialog.dart';
 
 class PlatformExceptionAlertDialog extends PlatformAlertDialog {
   PlatformExceptionAlertDialog({

@@ -1,5 +1,5 @@
-import 'package:complete_login_setup/src/widgets/common/custom_raised_button.dart';
 import 'package:flutter/material.dart';
+import 'package:research/src/widgets/common/custom_raised_button.dart';
 
 class CustomSocialButton extends CustomRaisedButton {
   CustomSocialButton({

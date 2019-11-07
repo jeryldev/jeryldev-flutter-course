@@ -1,11 +1,11 @@
-import 'package:complete_login_setup/src/authentication/authentication_service.dart';
-import 'package:complete_login_setup/src/blocs/sign_in_loading_bloc.dart';
-import 'package:complete_login_setup/src/widgets/common/custom_social_button.dart';
-import 'package:complete_login_setup/src/widgets/email_sign_in_form.dart';
-import 'package:complete_login_setup/src/widgets/platform_exception_alert_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/services.dart';
+import 'package:research/src/authentication/authentication_service.dart';
+import 'package:research/src/blocs/sign_in_loading_bloc.dart';
+import 'package:research/src/widgets/common/custom_social_button.dart';
+import 'package:research/src/widgets/email_sign_in_form.dart';
+import 'package:research/src/widgets/platform_exception_alert_dialog.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key key, this.bloc}) : super(key: key);
